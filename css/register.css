@@ -1,0 +1,130 @@
+* {
+	box-sizing: border-box;
+}
+
+.balloon {
+	display: inline-block;
+	padding: 10px 0 10px 15px;
+	color: #376d91;
+	background: #efefef;
+	border: 0;
+	width: 600px;
+	border-radius: 3px;
+	outline: 0;
+	text-indent: 140px;
+	transition: all 0.3s ease-in-out;
+}
+.balloon.sm {
+	text-indent: 70px;
+}
+.balloon::-webkit-input-placeholder {
+	color: #efefef;
+	text-indent: 0;
+}
+.balloon + label {
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	top: 1px;
+	color: #032429;
+	font-size: 14px;
+	transition: all 0.3s ease-in-out;
+	border-radius: 3px;
+	text-align: center;
+	padding: 0 10px 0 10px;
+}
+
+.balloon + label:after {
+	position: absolute;
+	content: "";
+	width: 0;
+	height: 0;
+	top: 100%;
+	left: 50%;
+	margin-left: -3px;
+	border-left: 3px solid transparent;
+	border-right: 3px solid transparent;
+	border-top: 3px solid rgba(122, 184, 147, 0);
+	transition: all 0.3s ease-in-out;
+}
+
+.balloon:focus,
+.balloon:active {
+	color: #376d91;
+	text-indent: 0;
+	background: #fff;
+}
+
+.balloon:focus + label,
+.balloon:active + label {
+	color: #fff;
+	padding: 2px 8px 2px 8px;
+	text-shadow: 0 1px 0 rgba(19, 74, 70, 0.4);
+	background: #376d91;
+	transform: translateY(-40px);
+}
+
+.balloon:focus + label:after,
+.balloon:active + label:after {
+	border-top: 4px solid #376d91;
+}
+.user_form {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+.card_form {
+	margin-top: auto;
+	margin-bottom: auto;
+	width: 400px;
+	background-color: #223f5a;
+	position: relative;
+	display: flex;
+	flex-flow: column wrap;
+	min-width: 0;
+	background-clip: border-box;
+	width: auto;
+}
+label {
+	color: white;
+	margin-top: 10px;
+}
+.card-header h3 {
+	color: white;
+}
+.row_form {
+	margin: 0;
+	position: relative;
+	z-index: 1;
+}
+.row_form .form_field {
+	position: relative;
+	display: block;
+	margin-top: 30px;
+}
+.row_form .error {
+	margin-top: 10px;
+}
+.user_form h3 {
+	text-align: center;
+}
+.compulsory,
+.error {
+	color: #f74343;
+	font-size: 14px;
+	margin: 0;
+}
+.container_form {
+	height: 100%;
+	align-content: center;
+}
+.regis_btn {
+	color: white;
+	background-color: #376d91;
+	width: 100px;
+}
+
+.regis_btn:hover {
+	color: black;
+	background-color: white;
+}

@@ -1,0 +1,273 @@
+.tab{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	background-color: #223f5a;
+	color: white;
+	margin-top: 25px;
+	border-left: 2px solid rgba(117,208,199);
+	border-right: 2px solid rgba(117,208,199);
+	border-bottom: 2px solid rgba(117,208,199);
+}
+.tab-item{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	width: 100%;
+	padding: 1%;
+	border-top: 2px solid rgba(117,208,199);
+}
+.tab-item:hover{
+	background-color:#17314a;
+}
+.tab-item-img{
+	width: 30%;	
+}
+.tab-item-img img{
+	width: 100%;
+	height: 100%;
+}
+.tab-item-title{
+	width: 40%;
+	margin-left: 2%;
+}
+.tab-item-price{
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	font-weight: bold;
+	text-align: right;
+	margin-right: 4%;
+}
+
+.discount{
+	color: #f64400;
+	margin-right: 2%;
+	padding: 0 2% 0 2%;
+}
+
+.row{
+	margin-top: 2.5%;
+}
+
+.leftcolumn{
+	float: left;
+	width: 75%;
+}
+
+.rightcolumn{
+	float: left;
+	width: 25%;
+}
+
+.leftcolumn .btn-group{
+	width: 100%;
+	margin-top: 2%;
+}
+.btn-group .button{
+	display: flex;
+	flex-direction: row;
+	color: white;
+	height: 80%;
+	padding: .75rem;
+	display: inline-block;
+	cursor: pointer;
+	font-size: .9rem;
+	line-height: 1.2em;
+	font-weight: bold;
+}
+.btn-group .block{
+	width: 50%;
+}
+.btn-group .delete{
+	width: 50%;
+	display: flex;
+	justify-content: flex-end;
+}
+.block .button{
+	background-color: #2b8ae8;
+}
+
+.block .button:hover{
+	background-color: #4095e8;
+}
+
+.delete .button{
+	background-color: #db0404;
+}
+
+.delete .button:hover{
+	background-color: #dc1e1e;
+}
+.containerr {
+	padding: 16px;
+	text-align: center;
+}
+.cancelbtn .deletebtn{
+	float: left;
+	width: 50%;
+}
+.modal{
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 50%;
+	height: 60%;
+	overflow: auto;;
+	margin-top: 10%;
+	margin-left: 25%;
+}
+.modal-content{
+	background-color: #fefefe;
+	margin: 5% auto 15% auto;
+	border: 1px solid #888;
+	width: 80%;
+}
+
+.combo-box{
+	width: 100%;
+	display: flex;
+}
+
+.discount{
+	border: 1px solid #f64400;
+	color: #f64400;
+	margin-right: 2%;
+	padding: 0 2% 0 2%;
+}
+.original-price{
+	text-decoration: line-through;
+	margin-right: 3%;
+}
+.price{
+	display: flex;
+	justify-content: flex-end;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	width: 100%;
+	height: auto;
+}
+.remove{
+	width: auto;
+}
+.btn-checkout{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	clear: both;
+	width: 100%;
+	margin-top: 1rem;
+	padding: 1rem 2rem;
+	color: white;
+}
+.btn-checkout button{
+	font-weight: bold;
+	color: white;
+	background-color: #01c853;
+	margin-top: 5%;
+}
+.btn-checkout button:hover{
+	color: white;
+	background-color: #03ec63;	
+}
+.checkout{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	flex-wrap: wrap;
+	width: 100%;
+}
+.checkout span{
+	width: 100%;
+}
+.button-cart{
+	width: auto;
+	background-color: rgba(47,50,60);
+	border: none;
+	transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+}
+
+button:focus{
+	outline: none;
+}
+
+.button-cart i{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	color: blue;
+}
+.tab-item:hover .button-cart{
+	background-color: rgba(55,59,71);
+}
+.button-cart i:hover{
+	color: rgba(21,21,159);
+}
+.footer{
+	color: white;
+	display: block;
+	border-top: 3px solid rgba(117,208,199);
+	background-color: black;
+	margin-top: 7%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	width: auto;
+}
+.mld-grid{
+	display: flex;
+	justify-content: flex-end;
+	flex-flow: row wrap;
+	align-items: strectch;
+	margin: 0 auto 0 auto;
+	padding-right: 5%;
+}
+.mld-grid div{
+	text-align: right;
+}
+.footer-link{
+	width: 15%;
+}
+.footer-link a{
+	color: rgba(224,225,209);
+}
+.footer-link a:hover{
+	text-decoration: none;
+	color: rgba(160,153,147);
+}
+.footer-link ul{
+	list-style-type: none;
+}
+.footer-bottom{
+	width: 100%;
+	text-align: right;
+	padding-right: 5%;
+	color: white;
+	font-size: 12px;
+}
+.noProduct{
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+}
+@media screen and (max-width: 800px){
+.leftcolumn, .rightcolumn{
+	width: 100%;
+	padding: 0;
+}
+}
+@media screen and (max-width: 800px){
+.card-top {
+	width: 100%;
+	height: 200px;
+}
+}
+@media screen and (max-width: 800px){
+.card-top div{
+	text-align: center;
+	padding-top: 35%;
+}
+}
