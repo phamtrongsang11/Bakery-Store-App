@@ -7,9 +7,9 @@ The Bakery Store's website is a web application built using PHP, MySQL for the b
 - Checkout Process and Order Tracking
 - Revenue Statistics
 
-<img src="https://github.com/phamtrongsang11/Bakery-Store-App/assets/101312630/4fc8698b-3b63-442b-a5af-30dd7b9fd162" width="100%" height="100%">
+<img src="https://github.com/phamtrongsang11/Bakery-Store-App/assets/101312630/4fc8698b-3b63-442b-a5af-30dd7b9fd162">
 
-<img src="https://github.com/phamtrongsang11/Bakery-Store-App/assets/101312630/539c7155-5d7d-440e-a5a4-f983e57c1306" width="100%" height="100%">
+<img src="https://github.com/phamtrongsang11/Bakery-Store-App/assets/101312630/539c7155-5d7d-440e-a5a4-f983e57c1306">
 
 ## To run project
 1. Clone source to your local machine
