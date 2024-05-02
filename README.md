@@ -11,6 +11,7 @@ The Bakery Store's website is a web application built using PHP, MySQL for the b
 <p>Client HomePage</p> <br>
 <img src="https://github.com/phamtrongsang11/Bakery-Store-App/assets/101312630/539c7155-5d7d-440e-a5a4-f983e57c1306">
 <p>Admin HomePage</p> <br>
+
 ## To run project
 1. Clone source to your local machine
 2. Import file data sql to MySQL Server and connect
